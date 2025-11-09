@@ -17,3 +17,17 @@ Questions:
 1. Do users need to be logged in to rate a product, or can guests also submit ratings?
 2. Can users edit or delete their rating after submitting it?
 3. Are ratings limited to whole stars (1–5), or can half-star ratings be used?
+
+
+---
+
+Age Verification for Alcoholic Products
+
+Requirement:Alcoholic products require age verification. A modal should appear when navigating to the alcoholic products category asking if the user is 18+. Users must input their age before accessing the alcoholic products.
+
+Questions:
+1. Does the age verification modal appear only when entering the Alcohol category, or also when searching for alcoholic products?
+2. Should users enter their date of birth, or is a simple “Yes, I’m 18+” confirmation enough?
+3. If the user is under 18, should they be blocked from viewing the page entirely or just from purchasing?
+4. Is the age verification stored for the current session (so the user isn’t asked again)?
+5. Will there be a second age check during checkout if the cart includes alcoholic products?
