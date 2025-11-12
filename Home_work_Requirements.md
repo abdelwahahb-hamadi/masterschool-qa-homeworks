@@ -1,4 +1,4 @@
- **Homework: Requirements**
+ **Homework: Requirements
  The Software
 **Webshop site** with the following existing functionalities:  
 - Register and login functionality  
@@ -9,7 +9,7 @@
 
 ---
 
-1. Product Rating System**
+1. Product Rating System
 
 **Requirement:**  
 Users should be able to rate products with a 5-star system and have the option to add written feedback.  
@@ -26,7 +26,7 @@ Users should be able to rate products with a 5-star system and have the option t
 
 ---
 
-2. Age Verification for Alcoholic Products**
+2. Age Verification for Alcoholic Products
 
 **Requirement:**  
 Alcoholic products require age verification. A modal should appear when navigating to the alcoholic products category asking if the user is 18+. Users must input their age before accessing the alcoholic products.  
@@ -43,7 +43,7 @@ Alcoholic products require age verification. A modal should appear when navigati
 
 ---
 
-3. Shipping Cost Changes**
+3. Shipping Cost Changes
 
 **Requirement:**  
 Free shipping for orders above a certain amount. Orders below this amount will incur a shipping fee.  
