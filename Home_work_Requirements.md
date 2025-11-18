@@ -1,59 +1,65 @@
- **Homework: Requirements
- The Software
-**Webshop site** with the following existing functionalities:  
+# Requirements – Market Mate Webshop
+
+## The software
+Market Mate is an online grocery webshop with the following existing functionalities:
+
 - Register and login functionality  
-- Searching for products, sorting by price, and browsing product categories  
+- Searching for products, sorting on price, categories of products  
 - Add products to favorites  
 - Add products to basket  
-- Checkout process: billing and shipping information in a form, choose payment method, and calculate total price  
+- Check-out process: billing and sending information in a form, choose payment method, and calculate total price  
+
+You are going to test the newly developed features. The new features are written below.
 
 ---
 
-1. Product Rating System
+# New Features
 
-**Requirement:**  
-Users should be able to rate products with a 5-star system and have the option to add written feedback.  
+## 1. Product Rating System
 
-**Questions:**  
+### Vague Requirement:
+Users should be able to rate products with a 5-star system and have the option to add written feedback.
+
+### Questions:
 1. Do users need to be logged in to rate a product, or can guests also submit ratings?  
 2. Can users edit or delete their rating after submitting it?  
 3. Are ratings limited to whole stars (1–5), or can half-star ratings be used?  
 
-**Detailed Requirements:**  
-1. Rating is available only for logged-in users.  
-2. Each user can rate a product once and may edit their rating later.  
-3. Ratings must be whole numbers from 1 to 5 (no half stars).  
+### Detailed Requirement:
+Users must be logged in to submit a rating. Ratings must be whole numbers from 1 to 5.  
+Each user can submit only one rating per product, but they may edit or delete it.  
+Optional written feedback can be added and must be saved together with the rating.
 
 ---
 
-2. Age Verification for Alcoholic Products
+## 2. Age Verification for Alcoholic Products
 
-**Requirement:**  
-Alcoholic products require age verification. A modal should appear when navigating to the alcoholic products category asking if the user is 18+. Users must input their age before accessing the alcoholic products.  
+### Vague Requirement:
+Alcoholic products require age verification before users are allowed to view or purchase them.
 
-**Questions:**  
-1. Does the age verification modal appear only when entering the Alcohol category, or also when searching for alcoholic products?  
-2. If the user is under 18, should they be blocked from viewing the page entirely or just from purchasing?  
-3. Will there be a second age check during checkout if the cart includes alcoholic products?  
+### Questions:
+1. Should the age verification popup appear only when entering the Alcohol category, or also when searching for alcoholic products?  
+2. If a user is under 18, should they be blocked from viewing the category entirely or only from purchasing?  
+3. Should there be a second age check during checkout if the cart contains alcoholic products?  
 
-**Detailed Requirements:**  
-1. An age verification modal appears automatically when entering or searching in the Alcohol category.  
-2. If the user is under 18, they are blocked from viewing or buying alcoholic products.  
-3. A second verification check appears during checkout if the cart includes alcoholic items.  
+### Detailed Requirement:
+When accessing the Alcoholic Products category or searching for alcoholic items, a modal must appear asking the user to confirm they are 18+.  
+If the user is under 18, they must be prevented from viewing or purchasing alcoholic products.  
+During checkout, if the cart includes alcohol, the age verification must be enforced again.
 
 ---
 
-3. Shipping Cost Changes
+## 3. Shipping Cost Changes
 
-**Requirement:**  
-Free shipping for orders above a certain amount. Orders below this amount will incur a shipping fee.  
+### Vague Requirement:
+Orders above a specific amount should receive free shipping. Orders below this threshold should incur a shipping fee.
 
-**Questions:**  
-1. What is the exact minimum order amount required for free shipping?  
-2. Is the free-shipping threshold calculated before tax or after discounts are applied?  
-3. If a product is returned and the total drops below the free-shipping threshold, should shipping fees be charged retroactively?  
+### Questions:
+1. What is the minimum order amount required to qualify for free shipping?  
+2. Should the free-shipping threshold be calculated before tax or after discounts are applied?  
+3. If a product is returned and the order total drops below the threshold, should the shipping cost be charged retroactively?  
 
-**Detailed Requirements:**  
-1. Orders above €50 (after discounts) qualify for free shipping.  
-2. Orders below €50 will be charged a flat €5 shipping fee.  
-3. If an item is returned and the order total drops below €50, €5 will be deducted from the refund amount.  
+### Detailed Requirement:
+Free shipping applies only when the final payable amount (after discounts) is equal to or above the defined threshold.  
+Orders below this threshold should automatically include a standard shipping fee.  
+If an item is returned and the total falls below the threshold, the system must recalculate and charge shipping where applicable.
