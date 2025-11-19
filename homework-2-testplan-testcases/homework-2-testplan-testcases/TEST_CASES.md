@@ -49,9 +49,7 @@ TEST CASES
   Expected Outcome: Average rating recalculated and shown correctly.
 
 
-====================================================
 2. AGE VERIFICATION FOR ALCOHOLIC PRODUCTS
-====================================================
 
 Test Design Techniques:
 - Boundary Value Analysis (BVA)
@@ -100,9 +98,8 @@ TEST CASES
   Expected Outcome: User remains blocked from category.
 
 
-====================================================
+
 3. SHIPPING COST CHANGES  
-====================================================
 
 Rule:
 - Orders ≥ 20€ → Free shipping
