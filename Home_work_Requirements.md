@@ -43,9 +43,7 @@ Alcoholic products require age verification before users are allowed to view or 
 3. Should there be a second age check during checkout if the cart contains alcoholic products?  
 
 ### Detailed Requirement:
-When accessing the Alcoholic Products category or searching for alcoholic items, a modal must appear asking the user to confirm they are 18+.  
 If the user is under 18, they must be prevented from viewing or purchasing alcoholic products.  
-During checkout, if the cart includes alcohol, the age verification must be enforced again.
 
 ---
 
