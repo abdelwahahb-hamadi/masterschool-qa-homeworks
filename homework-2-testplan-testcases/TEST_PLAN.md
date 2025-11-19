@@ -11,7 +11,6 @@ Ensure that the new features (Product Rating System, Age Verification for Alcoho
 - Regular customers buying groceries online  
 - Guests browsing without accounts  
 - Adults (18+) purchasing alcoholic products  
-- E-commerce admins and product managers  
 
 ### **Hardware and Software Specifications**
 
